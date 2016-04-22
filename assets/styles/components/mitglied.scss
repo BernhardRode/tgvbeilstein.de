@@ -1,0 +1,40 @@
+
+.mitglied {
+  display:none;
+}
+
+
+@media only screen and (min-width: $width-tablet) {
+  .mitglied {
+    margin-top:3em;
+    margin-bottom:1em;
+    border-top: 10px dashed $tgv-rot;
+    border-bottom: 10px dashed $tgv-rot;
+    display:block;
+    color: $tgv-rot;
+    height: 18em;
+    text-align:center;
+
+    .container {
+      display:flex;
+
+      & > * {
+        flex:1;
+        padding-top:6em;
+      }
+    }
+
+    .button {
+      background-color: #00AA00;
+      color:white;
+      font-size: 2em;
+      padding:0.5em 2em;
+      border-radius: 0.5em;
+
+      &:hover {
+        background-color: #00ee00;
+        box-shadow: 0px 0px 8px rgba(0,0,0,0.8);
+      }
+    }
+  }
+}

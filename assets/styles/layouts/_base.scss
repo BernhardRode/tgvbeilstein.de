@@ -1,0 +1,18 @@
+.content-root {
+  background: $white;
+  margin-bottom: 15em;
+  filter: drop-shadow(3px 3px 10px rgba(0,0,0,0.5));
+}
+
+.row {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  .main {
+    flex: 1;
+  }
+  .sidebar {
+    background:green;
+    //width: 300px;
+  }
+}

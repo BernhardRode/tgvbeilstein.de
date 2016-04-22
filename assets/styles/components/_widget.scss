@@ -1,0 +1,21 @@
+footer {
+  .widget {
+    h3 {
+      font-weight: 100;
+      color:white;
+    }
+    ul {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+      li {
+        a {
+          color: $white;
+          &:hover, &:active {
+            color:$secondary-text-color;
+          }
+        }
+      }
+    }
+  }
+}

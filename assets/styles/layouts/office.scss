@@ -1,0 +1,14 @@
+.map {
+  width:100%;
+  height: $slider-height;
+  background:black;
+
+  iframe {
+    width:100%;
+    height: $slider-height;
+  }
+
+  .scrolloff {
+    pointer-events: none;
+  }
+}

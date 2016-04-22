@@ -1,0 +1,605 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"slide",
+				"sliders"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"sli",
+				"slide_counter"
+			],
+			[
+				"plu",
+				"plugin_path"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"req",
+				"required_plugins"
+			],
+			[
+				"get_ww",
+				"get_ww_person"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"on",
+				"onFn"
+			],
+			[
+				"overla",
+				"overlayEl"
+			],
+			[
+				"di",
+				"decimal"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"list-",
+				"list-style-type"
+			],
+			[
+				"background",
+				"background"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assets/scripts/main.js",
+			"settings":
+			{
+				"buffer_size": 2904,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/styles/components/slider.scss",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Unix",
+				"name": "slider.css"
+			}
+		},
+		{
+			"file": "templates/header.php",
+			"settings":
+			{
+				"buffer_size": 1862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/styles/layouts/home.scss",
+			"settings":
+			{
+				"buffer_size": 86,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "assets/styles/main.scss",
+			"settings":
+			{
+				"buffer_size": 494,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "template-home.php",
+			"settings":
+			{
+				"buffer_size": 1156,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/functions.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/slider.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/manifest.json",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/footer.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/index.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/template-office.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/helpers.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/content-single-abteilung.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/layouts/_base.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/layouts/_footer.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/_variables.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/types.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/_global.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/single.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/header.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/layouts/_header.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/template-custom.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/content.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/scripts/main.js",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/map.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/layouts/office.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/bower.json",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/style.css",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/dist/scripts/main.js",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/scripts/customizer.js",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/blog.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/page.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/page-header.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/template-home.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/content-page.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/content-abteilung.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/main.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/dist/fonts/glyphicons-halflings-regular.eot",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/layouts/home.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/components/_widget.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/package.json",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/base.php",
+		"/Users/ebbo/Development/tgv-beilstein/app/styles/main.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/config/application.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/wp-config.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/mdl-blog.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/TGV.sublime-project",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/TGV.sublime-workspace",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/TGV.sublime-workspace",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/components/_wp-classes.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/components/_grid.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/components/_comments.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/templates/head.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/_variables.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/gulpfile.js",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/main.scss",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/assets/styles/common/palette.sass",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/extras.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/acf.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/customizer.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/template-gs.html",
+		"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein/lib/wrapper.php",
+		"/Users/ebbo/Development/tgvbeilstein.de/trellis/group_vars/development/wordpress_sites.yml",
+		"/Users/ebbo/Development/tgvbeilstein.de/trellis/group_vars/development/vault.yml",
+		"/Users/ebbo/Development/tgvbeilstein.de/trellis/dev.yml",
+		"/Users/ebbo/Development/tgv-beilstein/index.js",
+		"/Users/ebbo/Development/tgv-beilstein/src/index.js",
+		"/Users/ebbo/Development/tgv-beilstein/webpack.config.js",
+		"/Users/ebbo/Development/tgv-beilstein/docker-compose.yml",
+		"/Users/ebbo/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/ebbo/Downloads/CKIDeutsch.txt",
+		"/Users/ebbo/Downloads/Englisch.txt",
+		"/Users/ebbo/Downloads/Deutsch.txt",
+		"/Users/ebbo/WebstormProjects/wordpress-rodereisen/template-contact.php",
+		"/Users/ebbo/WebstormProjects/SWPPortal/src/main/webapp/pdfjs/build/pdf.js",
+		"/Users/ebbo/WebstormProjects/SWPPortal/src/main/webapp/pdfjs/web/viewer.js",
+		"/Users/ebbo/Desktop/pdfjs/web/viewer.js",
+		"/Users/ebbo/WebstormProjects/SWPPortal/src/main/webapp/pdfjs/web/viewer.html",
+		"/Users/ebbo/Desktop/pdfjs/web/viewer.html",
+		"/Users/ebbo/Desktop/web/viewer.js",
+		"/Users/ebbo/Desktop/viewer.html",
+		"/Users/ebbo/Library/Caches/com.binarynights.ForkLift2/#13/index.php",
+		"/Users/ebbo/Desktop/index.html",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/index.html",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/data/orders.json",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/orders/orders.ts",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/toc/toc.ts",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/toc/view.html",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/orders/view.html",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/item/item.ts",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/item/view.html",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/src/apps/app.ts",
+		"/Users/ebbo/WebstormProjects/quickstart/orders.json",
+		"/Users/ebbo/WebstormProjects/quickstart/app.template.html",
+		"/Users/ebbo/WebstormProjects/quickstart/app.ts",
+		"/Users/ebbo/WebstormProjects/Docy/Docy/server.js",
+		"/Users/ebbo/WebstormProjects/quickstart/OrdersService.ts",
+		"/Users/ebbo/WebstormProjects/quickstart/Header.ts"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ebbo/Development/tgvbeilstein.de/tgv/web/app/themes/tgv-beilstein"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ww_",
+			"WW\\",
+			"ww_",
+			"round",
+			"extend_ww_person",
+			"get_ww_person",
+			"$person",
+			"person",
+			" global ",
+			"<div class=\"wrap container\" role=\"document\">",
+			"\">\n",
+			"160px",
+			"125",
+			"30px",
+			"\";\n",
+			"get_template_directory",
+			"bower",
+			"bower.",
+			"bower",
+			"person",
+			"Person",
+			"person",
+			"devU",
+			"30px",
+			"2em",
+			"z-index",
+			"#header",
+			"secondary",
+			".menu-item",
+			".menu-item ",
+			"#navigati",
+			"page-nav",
+			"        \"",
+			"\"CARE_LABEL_",
+			".svg\",",
+			"\"",
+			" \"",
+			"\"",
+			" \"\": \"",
+			"\" : \"\",",
+			".svg",
+			"    \"",
+			"<div class=\"clearfix\"></div>",
+			"<p>",
+			"right",
+			"XML",
+			"XMLhtt",
+			"PDFViewerApplication",
+			"XMLHttpRequest",
+			"DEFAULT_URL",
+			"right",
+			"print",
+			"WS080180",
+			"http://www.newurl",
+			"http://www.oldurl",
+			"http://www.newurl",
+			"http://www.oldurl",
+			"OrderService",
+			"valueGetter: service.",
+			"myAppComponent",
+			"jspm"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assets/scripts/main.js",
+					"settings":
+					{
+						"buffer_size": 2904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1108,
+								1108
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 248.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/styles/components/slider.scss",
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								312,
+								312
+							]
+						],
+						"settings":
+						{
+							"auto_name": "slider.css",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/header.php",
+					"settings":
+					{
+						"buffer_size": 1862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "assets/styles/layouts/home.scss",
+					"settings":
+					{
+						"buffer_size": 86,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								1
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/styles/main.scss",
+					"settings":
+					{
+						"buffer_size": 494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								198,
+								198
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "template-home.php",
+					"settings":
+					{
+						"buffer_size": 1156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"assets/styles/common/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true
+}

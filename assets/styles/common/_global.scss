@@ -1,0 +1,63 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin:0px;
+
+  font-family: 'Source Sans Pro', sans-serif;
+  color: $primary-text-color;
+
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  font-weight: 100;
+}
+
+.wrap {
+  background: $white;
+  width: 100%;
+  margin-bottom: $footer-height;
+  filter: drop-shadow(3px 3px 10px rgba(0,0,0,0.5));
+  z-index:200;
+}
+
+.container {
+  max-width:$width-tablet - 100px;
+  margin:0 auto;
+}
+
+.shadowed {
+  filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+  filter: url(#drop-shadow);
+  -webkit-filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.8));
+  filter: drop-shadow(2px 2px 3px rgba(0,0,0,0.8));
+  -webkit-transform: translateZ(0);
+}
+
+a {
+  text-decoration: none;
+  color:$primary-color;
+  font-weight:400;
+
+  &:active,
+  &:hover,
+  &:visited {
+    color:$primary-color;
+  }
+}
+
+
+.img-round {
+  border-radius: 50%;
+}
+
+.muted {
+  color:$secondary-text-color;
+}
+
+
+
+
+$background-home-beilstein:      '/app/themes/tgv-beilstein/assets/images/stadt.beilstein.ansicht.jpg';

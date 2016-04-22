@@ -1,0 +1,35 @@
+// TGV colors
+$tgv-rot: 				      #D62431;
+$black: 				        #000000;
+$white:					        #FFFFFF;
+
+// mdl vars
+$primary-color-dark:    #8d1218;
+$primary-color:         $tgv-rot;
+$primary-color-light:   #FFCDD2;
+$primary-color-text:    $white;
+$accent-color:          #00BCD4;
+$primary-text-color:    #212121;
+$secondary-text-color:  #727272;
+$divider-color:         #B6B6B6;
+
+// Glyphicons font path
+$icon-font-path:        "../fonts/";
+
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Media Queries
+$width-tablet:          1024px;
+$width-mobile:          512px;
+
+// Colors
+$brand-primary:         $tgv-rot;
+
+// Heights
+$header-height:         35vh;
+$footer-height:         30vh;
+$slider-height:         65vh;
+
+

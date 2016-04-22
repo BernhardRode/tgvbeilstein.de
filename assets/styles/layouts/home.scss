@@ -1,0 +1,81 @@
+.slider-section {
+  height: $slider-height;
+  background: $tgv-rot;
+  z-index: 200;
+}
+
+
+.columns {
+  display:flex;
+  justify-content: center;
+  div {
+    flex:1;
+
+    h2 {
+      text-align:center;
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left:0;
+      padding-left:0;
+      li {
+        height: 2.3em;
+        text-align:center;
+        overflow:hidden;
+
+
+        display:flex;
+
+        a {
+          font-size:0.7em;
+          display: block;
+          padding:0.5em 1em;
+          height:100%;
+          width:100%;
+
+          vertical-align: middle;
+
+          //background: lightblue;
+        }
+
+        &:nth-of-type(odd) {
+          background: #eeeeee;
+        }
+        &:nth-of-type(even) {}
+      }
+    }
+  }
+}
+
+
+.beilstein {
+  display:none;
+}
+
+
+@media only screen and (min-width: $width-tablet) {
+  .beilstein {
+    display: block;
+
+    .headline {
+      background-image: url($background-home-beilstein);
+      background-position: 5%;
+      background-size: cover;
+      background-repeat:no-repeat;
+      height:300px;
+      background-color: $tgv-rot;
+      .container {
+        display: flex;
+        flex-flow: row;
+        img {
+          margin: 2em;
+        }
+        h1 {
+          color:$tgv-rot;
+          font-size: 3em;
+        }
+      }
+    }
+  }
+}
