@@ -14,7 +14,12 @@
     }
 
     function tgv_extract_beilstein_artikel($response) {
-      if ( false === ( $special_query_results = get_transient( md5($response['extractorData']['resourceId']) ) ) ) {
+      $special_query_results = array();
+
+      if (
+          ( isset($response['extractorData']) && isset($response['extractorData']['resourceId']) ) &&
+          false === ( $special_query_results = get_transient( md5($response['extractorData']['resourceId']) ) )
+      ) {
         $resourceId = $response['extractorData']['resourceId'];
         $data = $response['extractorData']['data'];
         $special_query_results = array();
@@ -68,7 +73,7 @@
     }
   ?>
   <div class="beilstein">
-    <div class="headline">
+    <div class="headline" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/stadt.beilstein.ansicht.jpg);">
       <div class="container">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wappen_beilstein_wuerttemberg.png" width="128" height="128" title="Stadt Beilstein">
         <h1>Stadt Beilstein</h1>
