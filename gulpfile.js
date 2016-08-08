@@ -225,7 +225,7 @@ gulp.task('images', function() {
 // `gulp jshint` - Lints configuration JSON and project JS.
 gulp.task('jshint', function() {
   return gulp.src([
-    'gulpfile.js'
+    'bower.json', 'gulpfile.js'
   ].concat(project.js))
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
@@ -255,7 +255,7 @@ gulp.task('watch', function() {
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
-  gulp.watch(['assets/manifest.json'], ['build']);
+  gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 });
 
 // ### Build

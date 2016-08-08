@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  .gallery-item {
+    text-align: center;
+    flex: 1;
+
+    img {
+      border-radius: 3px;
+    }
+  }
+}

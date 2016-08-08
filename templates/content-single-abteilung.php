@@ -1,74 +1,71 @@
 <?php
   require dirname(__FILE__) . '/../lib/helpers.php';
 ?>
-<div class="abteilung">
+<div class="abteilung row">
   <?php
     $fields = get_fields();
   ?>
-  <section class="uebersicht">
-    <div class="piktogramm">
+  <div class="row headline">
+    <div class="col s2">
       <?php
-        tgv_pictogram( $fields['piktogramm'], 'Abteilung '.get_the_title());
+        tgv_pictogram( $fields['piktogramm'], 'Abteilung '.get_the_title(), 75);
       ?>
     </div>
-    <div class="informationen">
-      <h1><span class="muted">Abteilung</span><br><?php the_title(); ?></h1>
-      <ul>
-        <?php
-          if (strlen($fields['e-mail']) > 0):
-          ?>
-            <li class="contact email">
-              <span class="label">E-Mail: </span>
-              <a href="mailto:<?php echo $fields['e-mail']; ?>">
-                <span class="link"><?php echo $fields['e-mail']; ?></a>
-              </a>
-            </li>
-          <?php
-          endif;
-          if (strlen($fields['webseite']) > 0):
-          ?>
-            <li class="contact website">
-              <span class="label">Webseite: </span>
-              <a href="<?php echo $fields['webseite']; ?>" target="_blank">
-                <span class="link"><?php echo $fields['webseite']; ?></span>
-              </a>
-            </li>
-          <?php
-          endif;
-        ?>
-      </ul>
+    <div class="col s8 offset-s2 right-align">
+      <h1>Abteilung <?php the_title(); ?></h1>
     </div>
-  </section>
+  </div>
 
-  <?php
-    if (isset($fields['hintergrund'])):
-    ?>
-      <style>
-        @media only screen and (min-width: 800px) {
-          .wrap { background-image: url('<?php echo $fields['hintergrund']; ?>'); }
-        }
-      </style>
+  <section class="kontakt row">
     <?php
-    endif;
-  ?>
+      if (strlen($fields['e-mail']) > 0):
+      ?>
+        <div class="chip">
+          <span class="label">E-Mail: </span>
+          <a href="mailto:<?php echo $fields['e-mail']; ?>">
+            <span class="link"><?php echo $fields['e-mail']; ?></a>
+          </a>
+        </div>
+      <?php
+      endif;
+      if (strlen($fields['webseite']) > 0):
+      ?>
+        <div class="chip">
+          <span class="label">Webseite: </span>
+          <a href="<?php echo $fields['webseite']; ?>" target="_blank">
+            <span class="link"><?php echo $fields['webseite']; ?></span>
+          </a>
+        </div>
+      <?php
+      endif;
+    ?>
+  </section>
 
   <?php if ($fields['personen'] && sizeof($fields['personen']) > 0):?>
     <section class="personen">
-      <h2>Abteilungsleitung</h2>
-      <ul>
-        <?php
-          foreach($fields['personen'] as $person) {
-            ?>
-              <li>
+      <h5 class="center-align">Funktionäre</h5>
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-content">
+              <ul>
                 <?php
-                  tgv_extend_person($person);
-                  tgv_render_person($person);
+                  foreach($fields['personen'] as $person) {
+                    ?>
+                      <li>
+                        <?php
+                          tgv_extend_person($person);
+                          tgv_render_person($person);
+                        ?>
+                      </li>
+                    <?php
+                  }
                 ?>
-              </li>
-            <?php
-          }
-        ?>
-      </ul>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   <?php endif; ?>
 
@@ -96,31 +93,70 @@
     if( $special_query_results->have_posts() ):
       ?>
       <section class="neuigkeiten">
-        <h2>Neuigkeiten</h2>
+        <div class="row headline">
+          <div class="col s8 offset-s4 right-align">
+            <h1>Neuigkeiten</h1>
+          </div>
+        </div>
         <div class="liste">
           <?php
             while ($special_query_results->have_posts()) : $special_query_results->the_post();
               $fields = get_fields();
               ?>
-                  <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                    <header class="entry-header">
-                      <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-                    </header><!-- .entry-header -->
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="card">
+                        <div class="card-content">
+                          <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                            <header class="entry-header">
+                              <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+                            </header>
 
-                    <div class="entry-content">
-                      <?php
-                        the_content();
+                            <div class="entry-content">
+                              <?php
+                                the_content();
 
-                        if ( '' !== get_the_author_meta( 'description' ) ) {
-                          get_template_part( 'templates/biography' );
-                        }
-                      ?>
-                    </div><!-- .entry-content -->
-
-                    <footer class="entry-footer">
-                      <?php twentysixteen_entry_meta(); ?>
-                    </footer><!-- .entry-footer -->
-                  </article><!-- #post-## -->
+                                if ( '' !== get_the_author_meta( 'description' ) ) {
+                                  get_template_part( 'templates/biography' );
+                                }
+                              ?>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="card-action">
+                          <div class="chip">
+                            <?php
+                              echo get_avatar( get_the_author_meta( 'user_email' ), 40 );
+                            ?>
+                            <?php
+                              echo get_the_author();
+                            ?>
+                          </div>
+                          <div class="chip">
+                            <?php
+                              echo get_the_modified_date();
+                            ?>
+                          </div>
+                          <?php
+                            $tags = get_the_tags();
+                            if ($tags) {
+                              foreach($tags as $tag) {
+                                echo '<div class="chip">' . $tag->name . '</div>';
+                              }
+                            }
+                          ?>
+                          <?php
+                            $categories = get_the_category();
+                            if ($categories) {
+                              foreach($categories as $category) {
+                                echo '<div class="chip">' . $category->name . '</div>';
+                              }
+                            }
+                          ?>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 <?php endwhile; ?>
               <?php
         ?>

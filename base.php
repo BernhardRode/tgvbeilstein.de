@@ -9,21 +9,16 @@ use Roots\Sage\Wrapper;
 <html <?php language_attributes(); ?>>
   <?php get_template_part('templates/head'); ?>
   <body <?php body_class(); ?>>
-
-    <?php if ( !is_page_template ( 'template-countdown.php' ) ): ?>
-      <?php
-        do_action('get_header');
-        get_template_part('templates/header');
-      ?>
-      <?php include Wrapper\template_path(); ?>
-      <?php
-        do_action('get_footer');
-        get_template_part('templates/footer');
-        wp_footer();
-      ?>
-    <?php else: ?>
-      <?php include Wrapper\template_path(); ?>
-    <?php endif; ?>
+    <?php
+      do_action('get_header');
+      get_template_part('templates/header');
+    ?>
+    <?php include Wrapper\template_path(); ?>
+    <?php
+      do_action('get_footer');
+      get_template_part('templates/footer');
+      wp_footer();
+    ?>
     <script type="text/javascript">
       WebFontConfig = {
         google: { families: [ 'Source+Sans+Pro:400,300,700:latin' ] }

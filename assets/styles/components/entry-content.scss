@@ -1,0 +1,31 @@
+.entry-content {
+  ul {
+    padding-left: 20px;
+    li {
+      list-style-type: circle;
+    }
+  }
+  ol {
+    padding-left: 20px;
+    li {
+    }
+  }
+
+  img {
+    &.size-large {
+      box-sizing: content-box;
+      max-width: 100%;
+    }
+    height: auto;
+  }
+
+  .wp-caption {
+    margin: 0;
+    max-width: 100%;
+    .wp-caption-text {
+      text-align: center;
+      font-style: italic;
+      color: $secondary-text-color;
+    }
+  }
+}

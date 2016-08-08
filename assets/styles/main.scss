@@ -1,25 +1,69 @@
-@import "common/variables";
+@charset "UTF-8";
+
+// Mixins
+@import "../../bower_components/materialize/sass/components/prefixer";
+@import "../../bower_components/materialize/sass/components/mixins";
+@import "../../bower_components/materialize/sass/components/color";
+
+// Variables;
+@import "common/_variables";
+
+// Reset
+@import "../../bower_components/materialize/sass/components/normalize";
+
+// components
+@import "../../bower_components/materialize/sass/components/global";
+//@import "../../bower_components/materialize/sass/components/icons-material-design";
+@import "../../bower_components/materialize/sass/components/grid";
+// @import "../../bower_components/materialize/sass/components/navbar";
+// @import "../../bower_components/materialize/sass/components/roboto";
+@import "../../bower_components/materialize/sass/components/typography";
+@import "../../bower_components/materialize/sass/components/cards";
+//@import "../../bower_components/materialize/sass/components/toast";
+//@import "../../bower_components/materialize/sass/components/tabs";
+//@import "../../bower_components/materialize/sass/components/tooltip";
+//@import "../../bower_components/materialize/sass/components/buttons";
+//@import "../../bower_components/materialize/sass/components/dropdown";
+//@import "../../bower_components/materialize/sass/components/waves";
+//@import "../../bower_components/materialize/sass/components/modal";
+//@import "../../bower_components/materialize/sass/components/collapsible";
+@import "../../bower_components/materialize/sass/components/chips";
+//@import "../../bower_components/materialize/sass/components/materialbox";
+//@import "../../bower_components/materialize/sass/components/forms/forms";
+//@import "../../bower_components/materialize/sass/components/table_of_contents";
+//@import "../../bower_components/materialize/sass/components/sideNav";
+//@import "../../bower_components/materialize/sass/components/preloader";
+//@import "../../bower_components/materialize/sass/components/slider";
+//@import "../../bower_components/materialize/sass/components/carousel";
+//@import "../../bower_components/materialize/sass/components/date_picker/default";
+//@import "../../bower_components/materialize/sass/components/date_picker/default.date";
+//@import "../../bower_components/materialize/sass/components/date_picker/default.time";
+
+
 @import "common/global";
 @import "common/icons";
-@import "layouts/base";
+//@import "layouts/base";
 @import "layouts/header";
-@import "layouts/sidebar";
-@import "layouts/footer";
-@import "layouts/pages";
-@import "layouts/posts";
-@import "layouts/tinymce";
-@import "layouts/countdown";
-
-@import "layouts/home";
-@import "layouts/office";
+//@import "layouts/sidebar";
+//@import "layouts/footer";
+//@import "layouts/pages";
+//@import "layouts/posts";
+//@import "layouts/tinymce";
+//@import "layouts/countdown";
+//
+//@import "layouts/home";
+//@import "layouts/office";
 @import "layouts/abteilung";
 
 
-@import "components/buttons";
-@import "components/comments";
-@import "components/forms";
-@import "components/widget";
-@import "components/slider";
-@import "components/mitglied";
+//@import "components/buttons";
+@import "components/gallery";
+@import "components/blockquote";
+@import "components/entry-content";
+//@import "components/comments";
+//@import "components/forms";
+//@import "components/widget";
+//@import "components/slider";
+//@import "components/mitglied";
 //@import "components/grid";
-@import "components/wp-classes";
+//@import "components/wp-classes";
