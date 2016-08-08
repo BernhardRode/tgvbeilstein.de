@@ -12,3 +12,25 @@
     pointer-events: none;
   }
 }
+
+.mitarbeiter {
+  ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    li {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+      .person {
+        text-align: center;
+        h3 {
+          color: $secondary-text-color;
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}
