@@ -19,20 +19,38 @@
   }
 
   img {
-    &.size-large {
-      box-sizing: content-box;
-      max-width: 100%;
-    }
+    min-width: 100px;
+    max-width: 100%;
     height: auto;
   }
 
   .wp-caption {
     margin: 0;
     max-width: 100%;
+  }
+
+  .wp-caption, .gallery-item {
     .wp-caption-text {
       text-align: center;
       font-style: italic;
       color: $secondary-text-color;
+    }
+  }
+}
+
+.content {
+  .card {
+    h1, h2, h3, h4, h5, h6 {
+      padding: 10px 20px;
+    }
+    p {
+      padding: 10px 20px;
+    }
+  }
+
+  .post_format-post-format-video {
+    .card-content {
+      text-align: center;
     }
   }
 }

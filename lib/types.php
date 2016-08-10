@@ -26,9 +26,9 @@ function cptui_register_my_cpts_person() {
 		"rewrite" => false,
 		"query_var" => true,
 		"menu_position" => 20,
-		"menu_icon" => "dashicons-id-alt",    
-		"supports" => array( "title", "thumbnail" ),    
-		"taxonomies" => array( "category" ),    
+		"menu_icon" => "dashicons-id-alt",
+		"supports" => array( "title", "thumbnail" ),
+		"taxonomies" => array( "category" ),
 	);
 	register_post_type( "person", $args );
 }
@@ -60,9 +60,9 @@ function cptui_register_my_cpts_abteilung() {
 		"rewrite" => true,
 		"query_var" => true,
 		"menu_position" => 20,
-		"menu_icon" => "dashicons-groups",    
-		"supports" => array( "title" ),    
-		//"taxonomies" => array( "category" ),    
+		"menu_icon" => "dashicons-groups",
+		"supports" => array( "title", "editor" ),
+		//"taxonomies" => array( "category" ),
 	);
 	register_post_type( "abteilung", $args );
 }

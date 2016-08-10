@@ -69,10 +69,22 @@
     </section>
   <?php endif; ?>
 
-
-  <section class="content">
-    <?php the_post(); ?>
-  </section>
+  <?
+    if (strlen(get_the_content()) > 0):
+  ?>
+    <section class="content">
+      <h5 class="center-align">Informationen</h5>
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <?php the_content(); ?>
+          </div>
+        </div>
+      </div>
+    </section>
+  <?
+    endif;
+  ?>
 
   <?php
     $args=array(
@@ -134,7 +146,7 @@
                           </div>
                           <div class="chip">
                             <?php
-                              echo get_the_modified_date();
+                              echo get_the_date();
                             ?>
                           </div>
                           <?php
