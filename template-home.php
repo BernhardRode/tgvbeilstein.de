@@ -11,16 +11,13 @@ use Roots\Sage\Wrapper;
 ?>
 <?php //get_template_part('templates/slider'); ?>
 <div class="wrap" role="document">
-  <?php get_template_part('templates/section', 'slider'); ?>
-
+  <?php //get_template_part('templates/section', 'slider'); ?>
   <div class="container">
     <div class="content row">
       <main class="main">
-        <?php while (have_posts()) : the_post(); ?>
-          <?php get_template_part('templates/content', 'page'); ?>
-        <?php endwhile; ?>
-
-        <?php get_template_part('templates/blog'); ?>
+        <?php // while (have_posts()) : the_post(); ?>
+          <?php get_template_part('templates/blog', 'page'); ?>
+        <?php // endwhile; ?>
       </main><!-- /.main -->
       <?php if (Setup\display_sidebar()) : ?>
         <aside class="sidebar">
@@ -29,7 +26,7 @@ use Roots\Sage\Wrapper;
       <?php endif; ?>
     </div><!-- /.content -->
   </div><!-- /.container -->
-  <?php get_template_part('templates/section', 'beilstein'); ?>
+  <?php // get_template_part('templates/section', 'beilstein'); ?>
   <?php get_template_part('templates/section', 'mitglied'); ?>
 
 </div><!-- /.wrap -->
