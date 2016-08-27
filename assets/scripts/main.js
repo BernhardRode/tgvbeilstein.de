@@ -31,18 +31,19 @@
 
         openFn = function() {
           mobileNavigation.classList.add('active');
-        }
+        };
 
         closeFn = function() {
           mobileNavigation.classList.remove('active');
-        }
+        };
 
         mobileNavigationOpen.addEventListener('click', function() {
           openFn();
-        })
+        });
+
         mobileNavigationClose.addEventListener('click', function() {
           closeFn();
-        })
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
