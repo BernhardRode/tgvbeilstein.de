@@ -1,11 +1,11 @@
 <?php
   require dirname(__FILE__) . '/../lib/helpers.php';
 ?>
-<div class="abteilung row">
+<div class="abteilung">
   <?php
     $fields = get_fields();
   ?>
-  <div class="row headline">
+  <div class="headline row">
     <div class="col s2">
       <?php
         tgv_pictogram( $fields['piktogramm'], 'Abteilung '.get_the_title(), 75);

@@ -20,6 +20,29 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        var mobileNavigation, mobileNavigationOpen, mobileNavigationClose,
+          openFn, closeFn;
+
+        mobileNavigation = document.getElementById('mobile-navigation');
+        mobileNavigationOpen = document.getElementById(
+          'mobile-navigation-open');
+        mobileNavigationClose = document.getElementById(
+          'mobile-navigation-close');
+
+        openFn = function() {
+          mobileNavigation.classList.add('active');
+        }
+
+        closeFn = function() {
+          mobileNavigation.classList.remove('active');
+        }
+
+        mobileNavigationOpen.addEventListener('click', function() {
+          openFn();
+        })
+        mobileNavigationClose.addEventListener('click', function() {
+          closeFn();
+        })
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
@@ -53,9 +76,15 @@
         };
 
         onFn();
-        overlayEl.addEventListener('onmouseup',function() { onFn(); });
-        overlayEl.addEventListener('mousedown',function() { offFn(); });
-        overlayEl.addEventListener('mouseleave',function() { onFn(); });
+        overlayEl.addEventListener('onmouseup', function() {
+          onFn();
+        });
+        overlayEl.addEventListener('mousedown', function() {
+          offFn();
+        });
+        overlayEl.addEventListener('mouseleave', function() {
+          onFn();
+        });
       }
     }
   };
@@ -78,10 +107,11 @@
     loadEvents: function() {
       // Fire common init JS
       UTIL.fire('common');
-      document.body.className.replace(/-/g, '_').split(/\s+/).forEach(function(classnm) {
-        UTIL.fire(classnm);
-        UTIL.fire(classnm, 'finalize');
-      });
+      document.body.className.replace(/-/g, '_').split(/\s+/).forEach(
+        function(classnm) {
+          UTIL.fire(classnm);
+          UTIL.fire(classnm, 'finalize');
+        });
       // Fire common finalize JS
       UTIL.fire('common', 'finalize');
     }
