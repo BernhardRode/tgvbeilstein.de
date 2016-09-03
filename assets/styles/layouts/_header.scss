@@ -1,6 +1,7 @@
 nav {
   margin-bottom:100px;
   background-color: $tgv-rot;
+  z-index: 120;
 
   .nav-wrapper {
     .brand-logo {
@@ -33,6 +34,7 @@ nav {
   }
 
   .menu-button {
+    cursor: pointer;
     display:none;
   }
 
@@ -127,6 +129,7 @@ nav {
       }
 
       .close {
+        cursor: pointer;
         display:block;
         position: absolute;
         top: 0px;

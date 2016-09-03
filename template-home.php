@@ -27,6 +27,6 @@ use Roots\Sage\Wrapper;
     </div><!-- /.content -->
   </div><!-- /.container -->
   <?php // get_template_part('templates/section', 'beilstein'); ?>
-  <?php get_template_part('templates/section', 'mitglied'); ?>
+  <?php // get_template_part('templates/section', 'mitglied'); ?>
 
 </div><!-- /.wrap -->

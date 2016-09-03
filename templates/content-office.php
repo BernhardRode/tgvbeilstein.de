@@ -4,9 +4,9 @@
 ?>
 
 <section class="open-times">
-  <h5 class="center-align">&Ouml;ffnungszeiten &amp; Kontakt</h5>
   <div class="row">
-    <div class="col s6">
+    <div class="col s12 m6">
+      <h5 class="center-align">&Ouml;ffnungszeiten</h5>
       <div class="card">
         <div class="collection">
           <?php
@@ -21,7 +21,8 @@
         </div>
       </div>
     </div>
-    <div class="col s6">
+    <div class="col s12 m6">
+      <h5 class="center-align">Kontakt</h5>
       <div class="card">
         <div class="collection">
           <div class="collection-item">
