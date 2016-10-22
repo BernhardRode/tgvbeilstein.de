@@ -122,7 +122,7 @@
             ?>
               <div class="card horizontal">
                 <div class="card-image">
-                  <img class="icon" src="<? echo $fields['piktogramm']; ?>">
+                  <img class="icon" src="<? echo $fields['piktogramm']; ?>" height="100" width="100">
                 </div>
                 <div class="card-stacked">
                   <div class="card-content">
