@@ -9,6 +9,8 @@
     <ul class="right hide-on-med-and-down">
       <li><a href="/verein">Verein</a></li>
       <li><a href="/geschaeftsstelle">Geschäftsstelle</a></li>
+      <li><a href="/kalender">Termine</a></li>
+      <li><a href="/downloads">Downloads</a></li>
       <li><a href="/impressum">Impressum</a></li>
     </ul>
   </div>
@@ -84,6 +86,8 @@
     <ul class="main">
       <li><a href="/verein">Verein</a></li>
       <li><a href="/geschaeftsstelle">Geschäftsstelle</a></li>
+      <li><a href="/kalender">Termine</a></li>
+      <li><a href="/downloads">Downloads</a></li>
       <li><a href="/impressum">Impressum</a></li>
     </ul>
   </div>
