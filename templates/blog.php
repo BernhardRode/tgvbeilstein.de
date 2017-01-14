@@ -13,13 +13,23 @@
 </div>
 
 <div class="blog-header-space content">
+
+  <div class="headline row">
+    <div class="col s8 offset-s4 right-align">
+      <h1>Aktuelles aus dem Verein</h1>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col s12">
       <?php
         $args = array(
           'posts_per_page'   => 5,
           'offset'           => 0,
-          'category_name'    => 'Allgemein',
+          'category_name'    => 'Allgemein' . ',' .
+            'Vorstand' . ',' .
+            'Gesamtverein' . ',' .
+            'Geschäftsstelle',
           'orderby'          => 'date',
           'order'            => 'DESC',
           'post_type'        => 'post',
@@ -86,7 +96,6 @@
     <h1>Aktuelles aus den Abteilungen</h1>
   </div>
 </div>
-
 
 <div class="content row">
   <div class="col s12">
