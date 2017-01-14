@@ -100,11 +100,12 @@ nav {
           width: 33%;
           transition:all 0.3s linear;
           a, a:hover {
-            background-color: transparent;
           }
           img {
-            width: 100%;
-            max-height: 50px;
+            width: 75px;
+            height: 75px;
+            background-color: white;padding:15px;
+            border-radius: 50px;
           }
           &:hover {
             transform: scale(1.3);
