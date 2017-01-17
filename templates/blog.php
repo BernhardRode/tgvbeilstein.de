@@ -15,7 +15,7 @@
 <div class="blog-header-space content">
 
   <div class="headline row">
-    <div class="col s8 offset-s4 right-align">
+    <div class="col s12 l8 offset-l4 right-align">
       <h1>Aktuelles aus dem Verein</h1>
     </div>
   </div>
@@ -92,7 +92,7 @@
 </div>
 
 <div class="headline row">
-  <div class="col s8 offset-s4 right-align">
+  <div class="col s12 l8 offset-l4 right-align">
     <h1>Aktuelles aus den Abteilungen</h1>
   </div>
 </div>
