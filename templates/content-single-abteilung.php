@@ -52,7 +52,7 @@
                 <?php
                   foreach($fields['personen'] as $person) {
                     ?>
-                      <div class="col l3 s6">
+                      <div class="col l3 s6" style="height:175px;">
                         <?php
                           tgv_extend_person($person);
                           tgv_render_person($person);
