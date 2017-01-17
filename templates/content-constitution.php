@@ -5,7 +5,6 @@
 
 <?php if (
   $fields['satzung'] && sizeof($fields['satzung']) > 0 &&
-  $fields['geschaeftsordnung'] && sizeof($fields['geschaeftsordnung']) > 0 &&
   $fields['finanzordnung'] && sizeof($fields['finanzordnung']) > 0 &&
   $fields['beitragsordnung'] && sizeof($fields['beitragsordnung']) > 0 &&
   $fields['ehrenordnung'] && sizeof($fields['ehrenordnung']) > 0 &&
@@ -20,16 +19,6 @@
             <?php 
               tgv_extend_file($fields["satzung"]);
               tgv_render_file($fields["satzung"], "Satzung");
-            ?>
-          </div>
-        </div>
-      </div>
-      <div class="col s2">
-        <div class="card">
-          <div class="card-content">
-            <?php 
-              tgv_extend_file($fields["geschaeftsordnung"]);
-              tgv_render_file($fields["geschaeftsordnung"], "Geschäftsordnung");
             ?>
           </div>
         </div>
@@ -81,7 +70,7 @@
     <h5 class="center-align">Satzung &amp; Ordnungen</h5>
     <div class="row">
       <div class="col s12">
-        Ihalt kann nicht angezeigt werden. Bitte alle Dokumente einpflegen.
+        Inhalt kann nicht angezeigt werden. Bitte alle Dokumente einpflegen.
       </div>    
     </div>
   </section>
