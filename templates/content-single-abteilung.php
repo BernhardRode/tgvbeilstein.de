@@ -48,11 +48,11 @@
         <div class="col s12">
           <div class="card">
             <div class="card-content">
-              <ul>
+              <ul class="row">
                 <?php
                   foreach($fields['personen'] as $person) {
                     ?>
-                      <li>
+                      <li class="col l3 s6">
                         <?php
                           tgv_extend_person($person);
                           tgv_render_person($person);

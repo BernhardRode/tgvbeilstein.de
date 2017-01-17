@@ -11,7 +11,7 @@
   <section class="vorstand">
     <h5 class="center-align">Vorstand</h5>
     <div class="row">
-      <div class="col s4">
+      <div class="col l4 s12">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-      <div class="col s4">
+      <div class="col l4 s12">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="col s4">
+      <div class="col l4 s12">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -54,7 +54,7 @@
   <section class="vorstand">
     <h5 class="center-align">Erweiterter Vorstand</h5>
     <div class="row">
-      <div class="col s3">
+      <div class="col l3 s6">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -64,7 +64,7 @@
           </div>
         </div>
       </div>
-      <div class="col s3">
+      <div class="col l3 s6">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -74,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="col s3">
+      <div class="col l3 s6">
         <div class="card">
           <div class="card-content">
             <?php 
@@ -84,7 +84,7 @@
           </div>
         </div>
       </div>
-      <div class="col s3">
+      <div class="col l3 s6">
         <div class="card">
           <div class="card-content">
             <?php 
