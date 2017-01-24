@@ -47,39 +47,31 @@ add_action('admin_notices', 'showAdminMessages');
 function showAdminMessages() {
   $plugin_messages = array();
   $required_plugins = array();
-
   include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-
   $required_plugins[] = (object) array(
     'name' => 'WPCustom Category Image',
     'plugin_path' => 'wpcustom-category-image/load.php',
     'url' => 'https://wordpress.org/plugins/wpcustom-category-image/',
     'required' => false
   );
-
   $required_plugins[] = (object) array(
     'name' => 'Custom Post Type UI ',
     'plugin_path' => 'custom-post-type-ui/custom-post-type-ui.php',
     'url' => 'https://wordpress.org/plugins/custom-post-type-ui/',
     'required' => false
   );
-
    $required_plugins[] = (object) array(
     'name' => 'Advanced Custom Fields Pro',
     'plugin_path' => 'advanced-custom-fields-pro/acf.php',
     'url' => 'https://www.advancedcustomfields.com',
     'required' => true
   );
-
    $required_plugins[] = (object) array(
     'name' => 'Simple Photoswipe',
     'plugin_path' => 'simple-photoswipe/simple-photoswipe.php',
     'url' => 'https://wordpress.org/plugins/simple-photoswipe/',
     'required' => false
   );
-
-
-
   if(count($required_plugins) > 0) {
     foreach ($required_plugins as $plugin) {
       if($plugin->required == true && !is_plugin_active( $plugin->plugin_path )) {
@@ -87,7 +79,6 @@ function showAdminMessages() {
       }
     }
   }
-
   if(count($plugin_messages) > 0) {
     echo '<div id="message" class="error">';
       foreach($plugin_messages as $message) {
@@ -110,17 +101,12 @@ function my_function_admin_bar(){
  */
 update_option('image_default_link_type','none');
 
-
-
 /**
  * Change logo in login form
  */
-
 function custom_loginlogo() {
   echo '<style type="text/css">';
   echo 'h1 a {background-image: url('.get_bloginfo('template_directory').'/assets/images/tgv.logo.png) !important; }';
   echo '</style>';
 }
 add_action('login_head', 'custom_loginlogo');
-
-

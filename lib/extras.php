@@ -35,9 +35,9 @@ add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
 /**
  * How to Remove width & height attributes from images in posts
  */
-add_filter( 'post_thumbnail_html', 'remove_wps_width_attribute', 10 );
-add_filter( 'image_send_to_editor', 'remove_wps_width_attribute', 10 );
-function remove_wps_width_attribute( $html ) {
-    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
-    return $html;
-}
+// add_filter( 'post_thumbnail_html', 'remove_wps_width_attribute', 10 );
+// add_filter( 'image_send_to_editor', 'remove_wps_width_attribute', 10 );
+// function remove_wps_width_attribute( $html ) {
+//     $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
+//     return $html;
+// }
