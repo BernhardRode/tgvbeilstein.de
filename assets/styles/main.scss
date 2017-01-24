@@ -5,8 +5,11 @@
 @import "../../bower_components/materialize/sass/components/mixins";
 @import "../../bower_components/materialize/sass/components/color";
 
-// Variables;
+// Variables
 @import "common/_variables";
+
+// Wordpress
+@import "common/_wordpress";
 
 // Reset
 @import "../../bower_components/materialize/sass/components/normalize";
