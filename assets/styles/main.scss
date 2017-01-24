@@ -1,46 +1,46 @@
 @charset "UTF-8";
 
 // Mixins
-@import "../../bower_components/materialize/sass/components/prefixer";
-@import "../../bower_components/materialize/sass/components/mixins";
-@import "../../bower_components/materialize/sass/components/color";
+@import "../../node_modules/materialize-css/sass/components/prefixer";
+@import "../../node_modules/materialize-css/sass/components/mixins";
+@import "../../node_modules/materialize-css/sass/components/color";
 
 // Variables
 @import "common/_variables";
 
 // Wordpress
-@import "common/_wordpress";
+@import "common/wordpress";
 
 // Reset
-@import "../../bower_components/materialize/sass/components/normalize";
+@import "../../node_modules/materialize-css/sass/components/normalize";
 
 // components
-@import "../../bower_components/materialize/sass/components/global";
-//@import "../../bower_components/materialize/sass/components/icons-material-design";
-@import "../../bower_components/materialize/sass/components/grid";
-@import "../../bower_components/materialize/sass/components/navbar";
-// @import "../../bower_components/materialize/sass/components/roboto";
-@import "../../bower_components/materialize/sass/components/typography";
-@import "../../bower_components/materialize/sass/components/cards";
-//@import "../../bower_components/materialize/sass/components/toast";
-//@import "../../bower_components/materialize/sass/components/tabs";
-//@import "../../bower_components/materialize/sass/components/tooltip";
-//@import "../../bower_components/materialize/sass/components/buttons";
-//@import "../../bower_components/materialize/sass/components/dropdown";
-//@import "../../bower_components/materialize/sass/components/waves";
-//@import "../../bower_components/materialize/sass/components/modal";
-//@import "../../bower_components/materialize/sass/components/collapsible";
-@import "../../bower_components/materialize/sass/components/chips";
-//@import "../../bower_components/materialize/sass/components/materialbox";
-//@import "../../bower_components/materialize/sass/components/forms/forms";
-//@import "../../bower_components/materialize/sass/components/table_of_contents";
-//@import "../../bower_components/materialize/sass/components/sideNav";
-//@import "../../bower_components/materialize/sass/components/preloader";
-//@import "../../bower_components/materialize/sass/components/slider";
-//@import "../../bower_components/materialize/sass/components/carousel";
-//@import "../../bower_components/materialize/sass/components/date_picker/default";
-//@import "../../bower_components/materialize/sass/components/date_picker/default.date";
-//@import "../../bower_components/materialize/sass/components/date_picker/default.time";
+@import "../../node_modules/materialize-css/sass/components/global";
+//@import "../../node_modules/materialize-css/sass/components/icons-material-design";
+@import "../../node_modules/materialize-css/sass/components/grid";
+@import "../../node_modules/materialize-css/sass/components/navbar";
+// @import "../../node_modules/materialize-css/sass/components/roboto";
+@import "../../node_modules/materialize-css/sass/components/typography";
+@import "../../node_modules/materialize-css/sass/components/cards";
+//@import "../../node_modules/materialize-css/sass/components/toast";
+//@import "../../node_modules/materialize-css/sass/components/tabs";
+//@import "../../node_modules/materialize-css/sass/components/tooltip";
+//@import "../../node_modules/materialize-css/sass/components/buttons";
+//@import "../../node_modules/materialize-css/sass/components/dropdown";
+//@import "../../node_modules/materialize-css/sass/components/waves";
+//@import "../../node_modules/materialize-css/sass/components/modal";
+//@import "../../node_modules/materialize-css/sass/components/collapsible";
+@import "../../node_modules/materialize-css/sass/components/chips";
+//@import "../../node_modules/materialize-css/sass/components/materialbox";
+//@import "../../node_modules/materialize-css/sass/components/forms/forms";
+//@import "../../node_modules/materialize-css/sass/components/table_of_contents";
+//@import "../../node_modules/materialize-css/sass/components/sideNav";
+//@import "../../node_modules/materialize-css/sass/components/preloader";
+//@import "../../node_modules/materialize-css/sass/components/slider";
+//@import "../../node_modules/materialize-css/sass/components/carousel";
+//@import "../../node_modules/materialize-css/sass/components/date_picker/default";
+//@import "../../node_modules/materialize-css/sass/components/date_picker/default.date";
+//@import "../../node_modules/materialize-css/sass/components/date_picker/default.time";
 
 
 @import "common/global";

@@ -176,7 +176,9 @@ gulp.task('styles', ['wiredep'], function() {
         this.emit('end');
       });
     }
-    merged.add(gulp.src(dep.globs, {base: 'styles'})
+
+    merged
+      .add(gulp.src(dep.globs, {base: 'styles'})
       .pipe(cssTasksInstance));
   });
   return merged
@@ -225,7 +227,7 @@ gulp.task('images', function() {
 // `gulp jshint` - Lints configuration JSON and project JS.
 gulp.task('jshint', function() {
   return gulp.src([
-    'bower.json', 'gulpfile.js'
+    'gulpfile.js'
   ].concat(project.js))
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'))
@@ -255,7 +257,7 @@ gulp.task('watch', function() {
   gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
   gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
   gulp.watch([path.source + 'images/**/*'], ['images']);
-  gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
+  gulp.watch(['assets/manifest.json'], ['build']);
 });
 
 // ### Build
