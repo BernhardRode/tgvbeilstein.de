@@ -88,8 +88,8 @@
 
   <?php
     $args=array(
-      'orderby' => 'title',
-      'order'   => 'ASC',
+      'orderby' => 'date',
+      'order'   => 'DESC',
       'post_type' => 'post',
       'post_status' => 'publish',
       'posts_per_page' => -1,
