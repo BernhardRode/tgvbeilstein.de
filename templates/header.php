@@ -52,10 +52,6 @@
         <img class="logo shadowed" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tgv.logo.svg">
       </a>
     </div>
-    <div>
-      <a style="width:90%;" href="mailto:info@tgveintrachtbeilstein.de" class="waves-effect waves-light btn grey darken-3"><i class="material-icons left">email</i>info@tgveintrachtbeilstein.de</a>
-      <a style="width:90%;" href="tel:+4970625753" class="waves-effect waves-light btn grey darken-3"><i class="material-icons left">phone</i>+49 (0) 7062 - 5753</a>
-    </div>
     <ul class="abteilungen">
       <?php
         $type = 'abteilung';
