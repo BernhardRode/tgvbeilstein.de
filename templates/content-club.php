@@ -97,3 +97,20 @@
     </div>
   </section>
 <?php endif; ?>
+
+<?
+  if (strlen(get_the_content()) > 0):
+?>
+  <section class="content">
+    <h5 class="center-align">Informationen</h5>
+    <div class="row">
+      <div class="col s12">
+        <div class="card">
+          <?php the_content(); ?>
+        </div>
+      </div>
+    </div>
+  </section>
+<?
+  endif;
+?>
