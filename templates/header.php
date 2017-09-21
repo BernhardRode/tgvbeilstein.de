@@ -4,7 +4,7 @@
       <i class="material-icons large">clear_all</i>
     </div>
     <a href="/" class="brand-logo">
-      <img class="logo shadowed" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tgv.logo.svg">
+      <img class="logo shadowed" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/tgv.logo.png">
     </a>
     <ul class="right hide-on-med-and-down">
       <li><a href="/verein">Verein</a></li>
